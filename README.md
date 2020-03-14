@@ -19,7 +19,7 @@ It is possible to create payments and retrieve payments. See Testing API for mor
 
 **Acquirer bank**: I'm using [mocky](http://www.mocky.io/) to fake the acquirer bank.
 
-**Mediatr**: Is used to dispatch Command and Queries.
+**Mediatr**: It's used to dispatch Command and Queries.
 
 **FluentValidations**: In conjunction with Mediator pipeline, fluentValidations is used to validate Command and Queries request.
 
