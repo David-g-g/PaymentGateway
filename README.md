@@ -1,6 +1,6 @@
 # Intruduction
 
-PaymentGateway to process payments with a fake acquirer.
+Payment gateway to process payments with a fake acquirer.
 
 
 
