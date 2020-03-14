@@ -31,6 +31,9 @@ It is possible to create payments and retrieve payments. See Testing API for mor
 
 **Integration test**: Some integration tests have been implemented.
 
+# Requeriments
+.net core >= 3.1.0
+
 # Run
 Execute command from PaymentGateway project folder:
 
