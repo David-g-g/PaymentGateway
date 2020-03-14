@@ -1,0 +1,69 @@
+﻿<Properties StartupConfiguration="{38758759-5E38-4FF0-A460-E10D2A1EF842}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PaymentGateway.UnitTests/Providers/HscbAcquirerTests.cs">
+    <Files>
+      <File FileName="PaymentGateway.UnitTests/Providers/HscbAcquirerTests.cs" Line="50" Column="54" NotebookId="1" />
+      <File FileName="PaymentGateway.UnitTests/Providers/httpResponse.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="PaymentGateway/Providers/HsbcProcessPaymentRequest.cs" Line="15" Column="33" NotebookId="1" />
+      <File FileName="PaymentGateway/Startup.cs" Line="65" Column="14" NotebookId="1" />
+      <File FileName="PaymentGateway.UnitTests/HmacValidatorTests.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="PaymentGateway/Domain/Interfaces/AcquiringBank/ProcessPaymentResponse.cs" Line="8" Column="30" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="2560" Y="516" Width="1280" Height="755">
+        <Files>
+          <File FileName="PaymentGateway/Providers/HsbcAquirerBank.cs" Line="34" Column="58" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PaymentGateway" expanded="True">
+            <Node name="PaymentGateway" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="V1" expanded="True" />
+              </Node>
+              <Node name="Domain" expanded="True">
+                <Node name="Interfaces" expanded="True">
+                  <Node name="AcquiringBank" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Providers" expanded="True" />
+            </Node>
+            <Node name="PaymentGateway.UnitTests" expanded="True">
+              <Node name="Handlers" expanded="True" />
+              <Node name="Providers" expanded="True">
+                <Node name="HscbAcquirerTests.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PaymentGateway" expanded="True">
+            <Node name="PaymentGateway.UnitTests" expanded="True">
+              <Node name="PaymentGateway" expanded="True">
+                <Node name="UnitTests" expanded="True">
+                  <Node name="Providers" expanded="True">
+                    <Node name="HscbAcquirerTests" expanded="True" />
+                  </Node>
+                  <Node name="Validators" expanded="True">
+                    <Node name="RequestPaymentValidatorTests" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PaymentGateway PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

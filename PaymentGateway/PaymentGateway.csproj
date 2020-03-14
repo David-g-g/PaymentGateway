@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.2" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Domain\Interfaces\AcquiringBank\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Domain\Interfaces\Repository\" />
+    <Folder Include="Domain\Aggregates\" />
+    <Folder Include="Domain\Aggregates\Merchant\" />
+    <Folder Include="Domain\Aggregates\Payment\" />
+    <Folder Include="Application\Queries\" />
+    <Folder Include="Application\Queries\GetPaymentByMerchantTransactionId\" />
+    <Folder Include="Application\Queries\GetPaymentByTransactionId\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\V1\" />
+    <Folder Include="Contracts\V1\ProcessPaymentRequest\" />
+    <Folder Include="Contracts\V1\GetPayment\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Validators\" />
+    <Folder Include="PipelineBehaviours\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Domain\Interfaces\I" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Application\Commands\RequestPayment\EmptyClass.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+  </ItemGroup>
+</Project>
