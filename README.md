@@ -1,17 +1,17 @@
-# Intruduction
+# Introduction
 
 Payment gateway to process payments with a fake acquirer.
 
 
 
-## Functinonalities
-It is prosible to create payments and retrieve payments. See Testing API for more details.
+## Functionalities
+It is possible to create payments and retrieve payments. See Testing API for more details.
 
 **Swagger**: Swagger has been use to facilitate the exploration and testing of the API
 
-**HMac signature**: Implemented HMac signature message authentication. In order for a Merchant to be able to send payment request, the merchant has to be registered in the sistem and have a SigningKey assinged. Payment request have to be singed with the assinged SigningKey.
+**HMac signature**: Implemented HMac signature message authentication. In order for a Merchant to be able to send payment request, the merchant has to be registered in the system and have a SigningKey assigned. Payment request have to be singed with the assigned SigningKey.
 
-**Api key Authentication**: Authentication based on API key. In order to use the API the merchant has to be registered in the system and have an API Key assinged. The API Key has to be sent in all requests.
+**Api key Authentication**: Authentication based on API key. In order to use the API the merchant has to be registered in the system and have an API Key assigned. The API Key has to be sent in all requests.
 
 **CQS** (not CQRS): Commands and queries has been separated following CQS principle. Commands and Queries are in the Application folder.
 
@@ -19,16 +19,15 @@ It is prosible to create payments and retrieve payments. See Testing API for mor
 
 **Acquirer bank**: I'm using [mocky](http://www.mocky.io/) to fake the acquirer bank.
 
-**Mediatr**: Is used to dispatch Command and Queriues.
+**Mediatr**: Is used to dispatch Command and Queries.
 
-**FluentValidations**: In conguntion whith Mediator pipeline, fluentValidations is used to validate Command and Queries request.
+**FluentValidations**: In conjunction with Mediator pipeline, fluentValidations is used to validate Command and Queries request.
 
-**FluentAssertions**: To create assetion in unit and integration tests.
+**FluentAssertions**: To create assertion in unit and integration tests.
 
-**Unit test**: Due to time restriction I coudn't write all the necessary unit tests. For example filters and Mediatr behaviours are not unit tested. 
+**Unit test**: Due to time restriction I couldn't write all the necessary unit tests. For example filters and Mediatr behaviours are not unit tested, and some validators, and neither the in-memory repositories. 
 
 **Integration test**: Some integration tests have been implemented.
-
 
 # Run
 Execute command from PaymentGateway project folder:
@@ -43,9 +42,9 @@ Execute command from root folder:
 dotnet test
 
 # Testing the API
-This project uses swagger to help exploring the API. Suagger should be displayed in the root url https://localhost:5001/index.html
+This project uses swagger to help exploring the API. Swagger should be displayed in the root url https://localhost:5001/index.html
 
-It is required for a merchant to exist in the database and have an apiKey and SigningKey assinged in order to be able to call the API.
+It is required for a merchant to exist in the database and have an apiKey and SigningKey assigned in order to be able to call the API.
 
 NOTE: There is an existing test merchant in the database, use the ApiKey and SigningKey for your tests
 
@@ -104,7 +103,7 @@ End point to get an existing payment
 
 Fetch the transactionId from the Process payment response and using to call this end point.
 
-example resonse
+example response
 ```javascript
 {
   "transactionId": "7fb6f154-9869-4917-8be4-f0767b12cd37",
