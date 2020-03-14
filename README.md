@@ -13,6 +13,8 @@ It is possible to create payments and retrieve payments. See Testing API for mor
 
 **Api key Authentication**: Authentication based on API key. In order to use the API the merchant has to be registered in the system and have an API Key assigned. The API Key has to be sent in all requests.
 
+**Duplicate payments**: Duplication (or idempotency) of payments is controlled based on the MerchantTransactionId that the merchant has to provide.  
+
 **CQS** (not CQRS): Commands and queries has been separated following CQS principle. Commands and Queries are in the Application folder.
 
 **Database**: There is no real database. I've implemented in-memory repositories. 
